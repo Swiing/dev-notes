@@ -36,9 +36,31 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
 
-  - folder: "content/docs/chapter1/"
-    label: "Chapitre 1"
-    name: "chapter1"
+  - folder: "content/docs/local-env/"
+    label: "Local environment"
+    name: "Local environment"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Weight", name: "weight", required: false, widget: "number", default: 10 }
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "LinkTitle", name: "linktitle", widget: "string", required: false}
+      - {label: "Type", name: "type", widget: "string", required: false, default: "book" }
+  - folder: "content/docs/hosting/"
+    label: "Hosting"
+    name: "hosting"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Weight", name: "weight", required: false, widget: "number", default: 10 }
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "LinkTitle", name: "linktitle", widget: "string", required: false}
+      - {label: "Type", name: "type", widget: "string", required: false, default: "book" }
+  - folder: "content/docs/cvs/"
+    label: "CVS"
+    name: "CVS"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
