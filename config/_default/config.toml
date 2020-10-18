@@ -19,7 +19,8 @@ copyright = ""
 ############################
 # for now, do not have a home page
 # see https://kodify.net/hugo/config/disablekinds-option/
-disableKinds = "home"
+# disableKinds = "home"
+# well, I actually do need a home page to have netlify identity work, as per https://community.netlify.com/t/problem-with-email-verification/4847
 
 ############################
 ## Advanced options below ##
