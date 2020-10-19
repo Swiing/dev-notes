@@ -5,7 +5,7 @@ weight: 2
 linktitle: git-bash
 type: book
 ---
-# Using Git bash
+## Using Git bash
 
 In non-administrator role, $HOME is set to the U: drive. To solve this:
 ```bash
@@ -19,7 +19,7 @@ Also:
 cd /c/
 ```
 
-## setting up the SSH key
+### setting up the SSH key
 
 At times, git-bash does not seem to execute the setup of ssh by default.
 This will result in e.g. npm install fail with:
@@ -46,7 +46,7 @@ eval `ssh-agent -s`
 ```
 Cf. https://stackoverflow.com/questions/17846529/could-not-open-a-connection-to-your-authentication-agent
 
-## Using git in git-bash
+### Using git in git-bash
 I am sometimes logged as administrator, sometimes as vaad7484 and this seems to
 confuse git at times:
 ```bash
