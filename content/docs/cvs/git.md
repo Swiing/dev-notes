@@ -13,3 +13,6 @@ Fatal: unable to access 'U://.gitconfig': Invalid argument
 ```
 
 \=> see [git-bash](../local-env/git-bash/) to solve.
+
+# To read
+[GitOps](https://www.gitops.tech/)
